@@ -1,6 +1,6 @@
 const contactData = {
   title: "Contact Me",
-  subtitle: "Reach out via form, social media, or support platforms.",
+  subtitle: "Open to internship opportunities, freelance projects, and full-stack web development collaboration.",
 
   tabs: [
     {
@@ -25,25 +25,25 @@ const contactData = {
       label: "GitHub",
       href: "https://github.com/vanmuoi24",
       icon: "bx bxl-github",
-      description: "Explore my code & projects",
+      description: "Explore my code and projects",
     },
     {
       label: "Tiktok",
       href: "https://www.tiktok.com/@ten_2402",
       icon: "bx bxl-tiktok",
-      description: "Let’s connect professionally",
+      description: "Follow my short-form updates",
     },
     {
       label: "Instagram",
       href: "https://www.instagram.com/ten.n24/",
       icon: "bx bxl-instagram",
-      description: "My visual journal & life updates",
+      description: "My visual journal and life updates",
     },
     {
       label: "Facebook",
       href: "https://www.facebook.com/domuoigghh/",
       icon: "bx bxl-facebook",
-      description: "Random thoughts & dev tweets",
+      description: "Connect with me on Facebook",
     },
   ],
 

@@ -1,139 +1,94 @@
 const experienceData = {
   title: "Experience",
   subtitle:
-    "A glimpse of where I've been — from work experience to organizational life that shaped who I am.",
+    "Freelance work, personal projects, and education milestones that shaped my full-stack development path.",
 
   tabs: ["Work", "Organization"],
 
   experiences: [
-    // === Work Experience ===
     {
-      icon: "bx bx-code-alt",
+      icon: "bx bx-wrench",
       tab: "Work",
-      title: "Frontend Developer Intern",
-      company: "PT Teknologi Kode",
-      year: "Jan 2025 - Apr 2025",
-      location: "Remote",
+      title: "Website for Plumbing and Electrical Repair Services",
+      company: "Freelance Project",
+      year: "09/2025 - Present",
+      location: "Ho Chi Minh City, Vietnam",
       description: [
-        "Build responsive UI with React & Tailwind",
-        "Integrate REST APIs for dashboard",
-        "Fix bugs & optimize performance"
+        "Developed a service booking website using Next.js.",
+        "Built SEO-friendly and responsive user interfaces for multiple devices.",
+        "Implemented service pages, contact forms, and customer support features.",
+        "Deployed and managed the website using hosting panel services."
       ],
-      tech: ["React", "Tailwind", "Axios"]
+      tech: ["Next.js", "React.js", "SEO", "Responsive Design"],
+      details: null,
+      companyUrl: null
     },
     {
-      icon: "bx bx-server",
+      icon: "bx bx-chip",
       tab: "Work",
-      title: "Backend Developer",
-      company: "Startup Lokal",
-      year: "Aug 2024 - Dec 2024",
-      location: "Remote",
+      title: "IoT Monitoring Dashboard System",
+      company: "Freelance Project",
+      year: "11/2025 - 01/2026",
+      location: "Ho Chi Minh City, Vietnam",
       description: [
-        "Create RESTful APIs using Express.js",
-        "Implement JWT auth & rate limiter",
-        "Write Swagger documentation"
+        "Developed the frontend and backend for a local IoT monitoring dashboard system.",
+        "Built a real-time dashboard with React.js to visualize sensor data.",
+        "Developed RESTful APIs using Java Spring Boot and MySQL.",
+        "Implemented JWT authentication, login/register features, and real-time data updates."
       ],
-      tech: ["Node.js", "Express", "MongoDB"]
+      tech: ["React.js", "Spring Boot", "MySQL", "JWT", "REST APIs"],
+      details: null,
+      companyUrl: null
     },
     {
-      icon: "bx bx-briefcase-alt",
+      icon: "bx bx-file-find",
       tab: "Work",
-      title: "Freelance Web Developer",
-      company: "Personal Projects",
-      year: "2023 - Present",
-      location: "Remote",
+      title: "Smart CV Filtering Website",
+      company: "Personal Project",
+      year: "01/2026 - 04/2026",
+      location: "Ho Chi Minh City, Vietnam",
       description: [
-        "Build custom websites for clients",
-        "Deploy with Vercel & Netlify",
-        "Deliver mobile-first UIs"
+        "Developed a smart CV filtering website using React.js and Java Spring Boot RESTful APIs.",
+        "Built an AI-powered matching service with FastAPI, TF-IDF, and Cosine Similarity.",
+        "Ranked candidates based on job descriptions.",
+        "Implemented responsive interfaces and optimized recruiter workflows."
       ],
-      tech: ["React", "Supabase", "CSS"]
+      tech: ["React.js", "Spring Boot", "FastAPI", "TF-IDF", "REST APIs"],
+      details: null,
+      companyUrl: null
     },
     {
-      icon: "bx bx-paint",
+      icon: "bx bx-heart",
       tab: "Work",
-      title: "UI Designer",
-      company: "UI Freelance",
-      year: "Jun 2023 - Sep 2023",
-      location: "Remote",
+      title: "Medical Appointment Management Website",
+      company: "Personal Project",
+      year: "09/2024 - 02/2025",
+      location: "Ho Chi Minh City, Vietnam",
       description: [
-        "Design landing pages in Figma",
-        "Create reusable components",
-        "Work closely with frontend devs"
+        "Developed a medical appointment booking system with React.js, Node.js, Sequelize, and MySQL.",
+        "Implemented user authentication and doctor schedule management.",
+        "Built patient record tracking features.",
+        "Optimized database queries to improve performance and reduce load times."
       ],
-      tech: ["Figma", "Balsamiq", "Canva"]
-    },
-
-    // === Organization Experience ===
-    {
-      icon: "bx bx-group",
-      tab: "Organization",
-      title: "Head of Web Development",
-      company: "Himpunan Mahasiswa Teknik",
-      year: "2024 - 2025",
-      location: "Medan",
-      description: [
-        "Lead a team of 5 developers",
-        "Build internal info system for members",
-        "Host weekly dev workshops"
-      ],
-      tech: ["React", "Laravel", "Git"]
+      tech: ["React.js", "Node.js", "Sequelize", "MySQL"],
+      details: null,
+      companyUrl: null
     },
     {
-      icon: "bx bx-calendar-event",
+      icon: "bx bx-book",
       tab: "Organization",
-      title: "Event Coordinator",
-      company: "UKM Teknologi",
-      year: "2023",
-      location: "USU",
+      title: "Software Engineering Student",
+      company: "Saigon University",
+      year: "2022 - Present",
+      location: "Ho Chi Minh City, Vietnam",
       description: [
-        "Coordinate hackathon event",
-        "Manage timeline & budgeting",
-        "Collaborate with sponsors"
+        "Major in Software Engineering.",
+        "Studied web development, database systems, software development, and software technology.",
+        "Applied coursework through full-stack web projects and practical product development."
       ],
-      tech: ["Notion", "Excel", "Trello"]
-    },
-    {
-      icon: "bx bx-color-fill",
-      tab: "Organization",
-      title: "Public Relations Staff",
-      company: "Forum Mahasiswa",
-      year: "2022 - 2023",
-      location: "USU",
-      description: [
-        "Manage social media strategy",
-        "Write press releases",
-        "Collaborate with campus media"
-      ],
-      tech: ["Instagram", "Canva", "Copywriting"]
-    },
-    {
-      icon: "bx bx-chalkboard",
-      tab: "Organization",
-      title: "Volunteer Mentor",
-      company: "Coding Bootcamp USU",
-      year: "2024",
-      location: "Medan",
-      description: [
-        "Teach frontend basics to beginners",
-        "Prepare interactive modules",
-        "Review participants' projects"
-      ],
-      tech: ["React", "HTML", "Tailwind"]
-    },
-    {
-      icon: "bx bx-bulb",
-      tab: "Organization",
-      title: "Innovation Team",
-      company: "Komunitas IT USU",
-      year: "2023",
-      location: "Medan",
-      description: [
-        "Brainstorm tech solutions",
-        "Pitch prototype ideas",
-        "Research new frameworks"
-      ],
-      tech: ["Next.js", "Supabase", "Figma"]
+      tech: ["Web Development", "Database Systems", "Software Development"],
+      details: null,
+      companyUrl: null
     }
   ]
 };

@@ -1,248 +1,72 @@
 const projectData = {
   title: "Projects",
   subtitle:
-    "Explore some of the works I've built — from slick frontend UIs, powerful backend APIs, to fullstack apps connected with real-time databases.",
+    "Selected freelance and personal projects from my CV, focused on full-stack web development, dashboards, booking systems, and AI-assisted workflows.",
 
   projects: [
     {
-      icon: "bx bx-wallet",
-      title: "Money Tracker",
+      icon: "bx bx-file-find",
+      title: "Smart CV Filtering Website",
       type: "Fullstack",
       features: [
-        "Supabase Auth + Database",
-        "CRUD transaksi harian",
-        "Statistik pengeluaran",
-        "Dark mode UI"
+        "Built a recruiter-focused CV filtering website with React.js frontend and Spring Boot RESTful APIs.",
+        "Developed an AI-powered CV matching service with FastAPI, TF-IDF, and Cosine Similarity.",
+        "Ranked candidates based on job descriptions to support faster screening.",
+        "Implemented responsive interfaces and optimized the recruiter experience."
       ],
-      tech: ["React", "Supabase", "Tailwind"],
-      year: 2025,
+      tech: ["React.js", "Spring Boot", "FastAPI", "TF-IDF", "REST APIs"],
+      year: "01/2026 - 04/2026",
       status: "Completed",
-      demo: "#home",
-      github: "#home"
+      demo: null,
+      github: "https://github.com/vanmuoi24"
     },
     {
-      icon: "bx bx-id-card",
-      title: "Personal Portfolio",
+      icon: "bx bx-heart",
+      title: "Medical Appointment Management Website",
+      type: "Fullstack",
+      features: [
+        "Developed a medical appointment booking system for doctors, patients, and schedules.",
+        "Implemented user authentication and role-based flows.",
+        "Built doctor schedule management and patient record tracking.",
+        "Optimized database queries to improve performance and reduce load times."
+      ],
+      tech: ["React.js", "Node.js", "Sequelize", "MySQL"],
+      year: "09/2024 - 02/2025",
+      status: "Completed",
+      demo: null,
+      github: "https://github.com/vanmuoi24"
+    },
+    {
+      icon: "bx bx-wrench",
+      title: "Plumbing & Electrical Repair Services Website",
       type: "Frontend",
       features: [
-        "Tailwind CSS",
-        "Dark/light mode",
-        "Animated tabs",
-        "Project & skill showcase"
+        "Developed a service booking website using Next.js.",
+        "Built SEO-friendly and responsive user interfaces for multiple devices.",
+        "Implemented service pages, contact forms, and customer support features.",
+        "Deployed and managed the website using hosting panel services."
       ],
-      tech: ["React", "Tailwind"],
-      year: 2025,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-bot",
-      title: "AI Chatbot JSON",
-      type: "Fullstack",
-      features: [
-        "React + Express backend",
-        "Input belajar dari user",
-        "Simpan ke JSON",
-        "Logic respons otomatis"
-      ],
-      tech: ["React", "Express", "Node.js"],
-      year: 2025,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-server",
-      title: "RESTful API Service",
-      type: "Backend",
-      features: [
-        "Express.js + MongoDB",
-        "JWT Auth",
-        "CRUD user & posts",
-        "Swagger API docs"
-      ],
-      tech: ["Node.js", "Express", "MongoDB"],
-      year: 2024,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-cloud-lightning",
-      title: "Weather App",
-      type: "Frontend",
-      features: [
-        "Fetch API OpenWeather",
-        "Search by city",
-        "Responsive UI",
-        "Dark mode"
-      ],
-      tech: ["HTML", "CSS", "JavaScript"],
-      year: 2024,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-link-alt",
-      title: "Link Collector",
-      type: "Fullstack",
-      features: [
-        "User auth (Supabase)",
-        "Simpan link pribadi",
-        "Search + filter",
-        "Responsive design"
-      ],
-      tech: ["React", "Supabase"],
-      year: 2025,
+      tech: ["Next.js", "React.js", "SEO", "Responsive Design"],
+      year: "09/2025 - Present",
       status: "In Progress",
-      demo: "#home",
-      github: "#home"
+      demo: null,
+      github: "https://github.com/vanmuoi24"
     },
     {
-      icon: "bx bx-notepad",
-      title: "Simple Note App",
-      type: "Frontend",
-      features: [
-        "LocalStorage persistence",
-        "Add/edit/delete note",
-        "Minimalist UI",
-        "No backend needed"
-      ],
-      tech: ["React"],
-      year: 2023,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-message-detail",
-      title: "QnA Forum",
+      icon: "bx bx-chip",
+      title: "IoT Monitoring Dashboard System",
       type: "Fullstack",
       features: [
-        "Ask & reply system",
-        "Vote & comment",
-        "Supabase realtime",
-        "Auth & user threads"
+        "Built a real-time IoT dashboard using React.js to visualize sensor data.",
+        "Developed RESTful APIs with Java Spring Boot and MySQL for CRUD operations.",
+        "Handled sensor data management and live updates.",
+        "Implemented JWT authentication, login/register features, and real-time data updates."
       ],
-      tech: ["React", "Supabase"],
-      year: 2025,
-      status: "In Progress",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-calendar-check",
-      title: "Habit Tracker",
-      type: "Frontend",
-      features: [
-        "Track daily habits",
-        "Calendar view",
-        "Custom habit types",
-        "Save via LocalStorage"
-      ],
-      tech: ["React", "Tailwind"],
-      year: 2024,
+      tech: ["React.js", "Spring Boot", "MySQL", "JWT", "REST APIs"],
+      year: "11/2025 - 01/2026",
       status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-bulb",
-      title: "Feedback Board",
-      type: "Backend",
-      features: [
-        "Post feedback",
-        "Voting system",
-        "Node.js API",
-        "MongoDB backend"
-      ],
-      tech: ["Node.js", "MongoDB"],
-      year: 2024,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-image",
-      title: "Image Gallery",
-      type: "Frontend",
-      features: [
-        "Grid layout",
-        "Modal zoom",
-        "Search filter",
-        "Responsive design"
-      ],
-      tech: ["React", "Tailwind"],
-      year: 2023,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-code-block",
-      title: "Markdown Editor",
-      type: "Frontend",
-      features: [
-        "Live preview",
-        "Dark mode toggle",
-        "Export to .md",
-        "Clean UI"
-      ],
-      tech: ["React", "Tailwind"],
-      year: 2024,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-chat",
-      title: "Realtime Chat",
-      type: "Fullstack",
-      features: [
-        "Supabase realtime",
-        "User auth",
-        "Room system",
-        "Message timestamp"
-      ],
-      tech: ["React", "Supabase"],
-      year: 2025,
-      status: "In Progress",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-money",
-      title: "Currency Converter",
-      type: "Frontend",
-      features: [
-        "Exchange rate API",
-        "Real-time currency change",
-        "Simple UX",
-        "Mobile responsive"
-      ],
-      tech: ["HTML", "CSS", "JavaScript"],
-      year: 2024,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
-    },
-    {
-      icon: "bx bx-task",
-      title: "Todo API Server",
-      type: "Backend",
-      features: [
-        "RESTful CRUD routes",
-        "Express.js + PostgreSQL",
-        "Rate limit middleware",
-        "JSON response format"
-      ],
-      tech: ["Node.js", "PostgreSQL"],
-      year: 2025,
-      status: "Completed",
-      demo: "#home",
-      github: "#home"
+      demo: null,
+      github: "https://github.com/vanmuoi24"
     }
   ]
 };

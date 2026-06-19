@@ -1,13 +1,13 @@
 const aboutData = {
   title: "About Me",
-  subtitle: "Discover my journey, passions, and the story behind my work",
+  subtitle: "Full-Stack Web Developer focused on practical, real-world web products.",
   image: "/assets/profile.jpg",
 
   biodata: [
     { label: "Name", value: "Vy Van Muoi", icon: "bx bx-id-card" },
     {
       label: "Date of Birth",
-      value: "February, 24-2004",
+      value: "February 24, 2004",
       icon: "bx bx-calendar",
     },
     { label: "Place of Birth", value: "DakLak, Vietnam", icon: "bx bx-map" },
@@ -19,25 +19,30 @@ const aboutData = {
     { label: "Phone", value: "+84 868166353", icon: "bx bx-phone" },
     {
       label: "Education",
-      value: "Sai Gon University of Technology and Education",
+      value: "Saigon University",
       icon: "bx bx-book",
     },
-    { label: "GPA", value: "3.50 / 4.00", icon: "bx bx-award" },
+    {
+      label: "Major",
+      value: "Software Engineering",
+      icon: "bx bx-code-curly",
+    },
   ],
 
   resume: {
     label: "Download My Resume",
-    href: null,
+    href: "/RenderCV_EngineeringResumes_Theme.pdf",
     icon: "bx bx-download",
+    type: "secondary",
   },
 
   aboutNarrative: {
     whoAmI: {
-      text: `I'm a frontend developer who crafts responsive, interactive, and clean UIs. With a background in Informatics Engineering, I blend design sense with technical logic.`,
+      text: `I'm a Software Engineering student and full-stack web developer with hands-on experience building freelance web solutions, service booking platforms, IoT dashboards, and AI-powered CV screening applications.`,
       icon: "bx-info-circle",
     },
     approach: {
-      text: `I focus on user-centered design, performance, and accessibility   always evolving with modern tech to deliver seamless digital experiences.`,
+      text: `I build responsive interfaces and RESTful backends with React.js, Next.js, Spring Boot, Node.js, and MySQL, focusing on clean user flows, authentication, database design, and real-world product delivery.`,
       icon: "bx-bulb",
     },
   },

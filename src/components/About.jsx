@@ -92,24 +92,38 @@ const About = () => {
 
 
                         <Tippy content="Download My Resume">
-                            <button
-                                onClick={() => {
-                                    Swal.fire({
-                                        title: "Not Available Yet 😅",
-                                        text: "My resume is still in progress. Please check back later!",
-                                        icon: "info",
-                                        confirmButtonColor: "#1F2937", 
-                                        confirmButtonText: "Alright",
-                                    });
-                                }}
-                                className={resumeButtonClasses}
-                                aria-label="Download Resume"
-                                data-aos-delay="600"
-                                data-aos="fade-down"
-                            >
-                                <i className={`${aboutData.resume.icon} text-lg mr-2`} aria-hidden="true"></i>
-                                {aboutData.resume.label}
-                            </button>
+                            {aboutData.resume.href ? (
+                                <a
+                                    href={aboutData.resume.href}
+                                    download
+                                    className={resumeButtonClasses}
+                                    aria-label="Download Resume"
+                                    data-aos-delay="600"
+                                    data-aos="fade-down"
+                                >
+                                    <i className={`${aboutData.resume.icon} text-lg mr-2`} aria-hidden="true"></i>
+                                    {aboutData.resume.label}
+                                </a>
+                            ) : (
+                                <button
+                                    onClick={() => {
+                                        Swal.fire({
+                                            title: "Not Available Yet",
+                                            text: "My resume is still in progress. Please check back later!",
+                                            icon: "info",
+                                            confirmButtonColor: "#1F2937",
+                                            confirmButtonText: "Alright",
+                                        });
+                                    }}
+                                    className={resumeButtonClasses}
+                                    aria-label="Download Resume"
+                                    data-aos-delay="600"
+                                    data-aos="fade-down"
+                                >
+                                    <i className={`${aboutData.resume.icon} text-lg mr-2`} aria-hidden="true"></i>
+                                    {aboutData.resume.label}
+                                </button>
+                            )}
                         </Tippy>
                     </div>
                 </div>

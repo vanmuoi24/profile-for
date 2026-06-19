@@ -1,9 +1,9 @@
 const footerData = {
     brand: {
-        name: "Hizkia Siahaan",
+        name: "Vy Van Muoi",
         icon: "bx bx-code-alt",
         description:
-            "Frontend Developer specializing in UI/UX, modern web technologies, and building smooth digital experiences with clean code & creative flow.",
+            "Full-Stack Web Developer and Software Engineering student building responsive web apps with React.js, Next.js, Spring Boot, and MySQL.",
     },
 
     navigationIcon: "bx bx-navigation",
@@ -27,22 +27,22 @@ const footerData = {
         {
             label: "GitHub",
             icon: "bx bxl-github",
-            href: "https://github.com/Hizkia178",
+            href: "https://github.com/vanmuoi24",
         },
         {
-            label: "LinkedIn",
-            icon: "bx bxl-linkedin-square",
-            href: "https://www.linkedin.com/in/hizkia-siahaan-59b003280/",
+            label: "Tiktok",
+            icon: "bx bxl-tiktok",
+            href: "https://www.tiktok.com/@ten_2402",
         },
         {
             label: "Instagram",
             icon: "bx bxl-instagram",
-            href: "#",
+            href: "https://www.instagram.com/ten.n24/",
         },
         {
-            label: "Twitter",
-            icon: "bx bxl-twitter",
-            href: "#",
+            label: "Facebook",
+            icon: "bx bxl-facebook",
+            href: "https://www.facebook.com/domuoigghh/",
         },
     ],
 
@@ -55,7 +55,7 @@ const footerData = {
         buttonText: "Subscribe",
     },
 
-    copyright: "© 2025 Hizkia Siahaan. All rights reserved.",
+    copyright: "© 2026 Vy Van Muoi. All rights reserved.",
 };
 
 export default footerData;
